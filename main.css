@@ -1,7 +1,7 @@
 * {
     text-align: center;
     font-family: 'Righteous', cursive;
-
+    color:#8A8271;
 }
 h1 {
     text-align: center;
@@ -11,8 +11,8 @@ h1 {
 
 .enemypic {
     width: 200px;
-    height: 200px
-    border: 2px solid black;
+    height: 200px;
+    border: 5px solid #718A75;
     margin:auto;
     margin-bottom: 25px;
     margin-top: 45px;
@@ -20,26 +20,30 @@ h1 {
 }
 
 .enemybox {
-    text-align: center;    
+    text-align: justify;    
 }
 
 #generatebutton {
-    background-color:#93A5AB;
-    margin: auto;
-    
-    
+    background: -webkit-linear-gradient(#718A75,#FFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#718A75,#FFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#718A75,#FFF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#718A75,#FFF); /* Standard syntax */
+	text-align: center;
+	padding: 10px 0px 10px 0px;  
 }
 
 .heroImage {
-    max-width: 20%;
+    max-width: 30%;
     box-shadow: 0 0 30px 8px grey ;
     margin-top: 50px;
     margin-bottom: 50px;
+    min-width: 40%;
 }
 
 
 #monsterDragon {
     display:none;
+    margin-top:20px
 }
 
 #monsterProwler {
@@ -48,4 +52,17 @@ h1 {
 
 #monsterGrunt {
     display:none;
+}
+
+span {
+    font-size:3em;
+    text-align: justify;
+    padding-left: 41%;
+    padding-right: 50%
+}
+
+#getReady {
+    margin-top: 5px;
+    padding: 0;
+    color: #718A75
 }
