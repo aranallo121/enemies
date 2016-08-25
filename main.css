@@ -1,0 +1,51 @@
+* {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+
+}
+h1 {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+
+}
+
+.enemypic {
+    width: 200px;
+    height: 200px
+    border: 2px solid black;
+    margin:auto;
+    margin-bottom: 25px;
+    margin-top: 45px;
+    max-height: 500px
+}
+
+.enemybox {
+    text-align: center;    
+}
+
+#generatebutton {
+    background-color:#93A5AB;
+    margin: auto;
+    
+    
+}
+
+.heroImage {
+    max-width: 20%;
+    box-shadow: 0 0 30px 8px grey ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+#monsterDragon {
+    display:none;
+}
+
+#monsterProwler {
+    display:none;
+}
+
+#monsterGrunt {
+    display:none;
+}
